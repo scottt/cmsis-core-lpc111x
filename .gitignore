@@ -1,0 +1,9 @@
+yotta_modules
+yotta_targets
+build
+.yotta.json
+upload.tar.gz
+.*.swp
+.*.swo
+.*.swn
+.DS_Store

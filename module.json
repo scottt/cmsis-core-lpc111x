@@ -1,0 +1,29 @@
+{
+  "name": "cmsis-core-lpc111x",
+  "version": "0.0.0",
+  "description": "CMSIS Core Implementation for NXP lpc111x microcontrollers",
+  "keywords": [
+    "cmsis-core",
+    "cmsis",
+    "NXP",
+    "lpc111x"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-core-lpc111x.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-core-lpc111x",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "extraIncludes": [
+    "cmsis-core-lpc111x"
+  ],
+  "dependencies": {
+    "cmsis-core": "~0.3.0"
+  }
+}
