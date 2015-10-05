@@ -1,11 +1,12 @@
 {
   "name": "cmsis-core-lpc111x",
   "version": "0.0.0",
-  "description": "CMSIS Core Implementation for NXP lpc111x microcontrollers",
+  "description": "CMSIS-CORE Implementation for NXP lpc111x microcontrollers",
   "keywords": [
     "cmsis-core",
     "cmsis",
-    "NXP",
+    "nxp",
+    "lpc1114",
     "lpc111x"
   ],
   "author": "Scott Tsai <scottt.tw@gmail.com>",
@@ -24,6 +25,6 @@
     "cmsis-core-lpc111x"
   ],
   "dependencies": {
-    "cmsis-core": "~0.3.0"
+    "cmsis-core": ">=0.3.0"
   }
 }

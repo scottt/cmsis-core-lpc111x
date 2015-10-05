@@ -326,7 +326,9 @@ void SystemCoreClockUpdate (void)            /* Get Core Clock Frequency      */
  *         Initialize the System.
  */
 void SystemInit (void) {
+#if (((SYSPLLCLKSEL_Val & 0x03) == 1) || ((MAINCLKSEL_Val & 0x03) == 2))
   volatile uint32_t i;
+#endif
 
 #if (CLOCK_SETUP)                                 /* Clock Setup              */
 
