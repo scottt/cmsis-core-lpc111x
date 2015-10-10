@@ -1,6 +1,6 @@
 {
   "name": "cmsis-core-lpc111x",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CMSIS-CORE Implementation for NXP lpc111x microcontrollers",
   "keywords": [
     "cmsis-core",
